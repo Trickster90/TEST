@@ -48,4 +48,5 @@ export(INSTALLS)
 
 
 DISTFILES += \
-    android/AndroidManifest.xml
+    android/AndroidManifest.xml \
+    ../FusionComponent/Tasks.txt
