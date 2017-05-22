@@ -1,30 +1,25 @@
-import QtQuick 2.7
-import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.0
+import QtQuick 2.0
 
-ApplicationWindow {
-    visible: true
-    width: 360
-    height: 560
-    title: qsTr("Hello World")
 
-    onClosing: {
-        close.accepted = false
-    }
 
-Rectangle{
-    anchors.fill: parent
-    focus: true
 
+Item {
     Keys.onReleased: {
         console.log("onReleased", event.key)
         releasedText.text = "onReleased " + event.key
     }
+
 //event.matches(StandardKey.Back)
+
     Keys.onPressed: {
         console.log("onPressed", event.key)
         pressedText.text = "onPressed " + event.key
     }
+
+//    onClosing: {
+//            close.accepted = false
+//    }
+
 
 
     Text {
@@ -74,8 +69,5 @@ Rectangle{
         verticalAlignment: Text.AlignVCenter
         horizontalAlignment: Text.AlignHCenter
     }
-
-}
-
 
 }

@@ -2,5 +2,17 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>ButtonPressedTest.qml</file>
+        <file>ListTableTest.qml</file>
+        <file>MaterialDesignTest.qml</file>
+        <file>../FusionComponent/FusionComponentUI.qmodel</file>
+        <file>../FusionComponent/ListModelSort.qml</file>
+        <file>../FusionComponent/ListTable.qml</file>
+        <file>../FusionComponent/ListTableHeaderTitle.qml</file>
+        <file>../FusionComponent/MessageDialog.qml</file>
+        <file>../FusionComponent/qmldir</file>
+        <file>../FusionComponent/RenewGesture.qml</file>
+        <file>../FusionComponent/RenewGestureImage.qml</file>
+        <file>../FusionComponent/Utils.qml</file>
     </qresource>
 </RCC>
